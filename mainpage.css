@@ -1,0 +1,28 @@
+.box{
+    width: 280px;
+    height:340px;
+    margin-left: 2%;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 5%;
+}
+.heading{
+    color:blue;
+    background-color: rgba(255, 255, 255, 0.692);
+    font-family:'Times New Roman',Times, serif;
+    font-size: 140%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight:900;
+    font-stretch:ultra-condensed;
+    text-align:center
+}
+.fillit{
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40%; 
+    background-color: rgb(63, 63, 236);
+    border-radius: 0.1in; 
+    padding:12px 10px;
+    margin-right: 34%;
+    margin-top: 0.1%;
+}

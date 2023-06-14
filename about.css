@@ -1,0 +1,68 @@
+.title{
+    color:coral;
+    margin-left: 40%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    margin-left: 45%;
+    border-style: hidden;
+    padding: 2%;
+    background-color: #ffffff;
+    border-radius: 25%;
+    width: 10%;
+}
+
+#one,#two,#three{
+    background-color: rgba(255, 255, 255, 0.692);
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-style:hidden;
+    border-radius: 20px;
+}
+
+#About_img,#why_img,#vnm{
+    width:15%;
+    padding: 2.5px;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 20%
+}
+
+.topic,.why,.Vision,.Mission{
+    color: #ff5f6d;
+    margin-left: 3.5%;
+    font-size: 150%;
+    padding:0.5%;
+}
+
+.description,.why-des,.three-1,.three-2{
+    font-size: 120%;
+    margin-left: 5%;
+    padding: 0.3%;
+}
+
+.topic,.description{
+    color: #000000;
+}
+
+.why,.why-des{
+    color: #000000;
+}
+
+.flex-container{
+    display:flex;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.flex-container > div{
+    background-color:rgba(73, 116, 207, 0.836);
+    margin:20px;
+    padding:20px;
+    font-size: 40px;
+    color:#ffff;
+    border-radius: 15px;
+}

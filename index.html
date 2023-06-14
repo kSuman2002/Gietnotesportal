@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-web</title>
+    <style>
+        p.one{
+            border-style:inherit;
+            border-width:2px;
+            text-align:center;
+            font-size: 16px;
+        }
+        p.two{
+            border-style:hidden;
+            border-width:2px;
+            text-align:center;
+            font-size: 18px;;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="indexx.css">
+    <script>
+        function validateform(){
+            var name=document.loginform.username.value;
+            var password=document.loginform.password.value;
+
+            if(name=="21ece008" && password=="08102003"){
+                return true;
+            }
+            else if(name=="21ece013" && password=="14082003"){
+                return true;
+            }
+            else if(name=="21ece014" && password=="20022003"){
+                return true;
+            }
+            else if(name=="21ece015" && password=="14052003"){
+                return true;
+            }
+            else if(name=="21cse442" && password=="01012003"){
+                return true;
+            }
+            else if(name=="" && password==""){
+                alert("User-name and Password can't be empty");
+                return false;
+            }
+            else {
+                alert("Invalid User-name or Password");
+                return false;
+            }
+        }
+    </script>
+
+</head>
+<body style="background-image:url('btblock.jpg');background-size:cover;background-attachment:fixed;">
+    <h1 style="color:aliceblue;font-family:'Times New Roman', Times, serif;font-size: 200%;font-weight:900;font-stretch:ultra-condensed;text-align:center">Welcome to G.I.E.T Notes Portal</h1>
+    
+    <img src="./logo.png" alt="Gietlogo" width="200" style="border-radius: 5px solid aqua;margin:0px 50px">
+    <div class="profile">
+        <img src="./profile.jpg" alt="login">
+    </div>
+
+    <div class="container">
+        <br></br>
+        <a href="./contact.html" class="btn-contact" target="_blank">CONTACT US</a>
+        <a href="./About.html" class="btn-about" target="_blank">ABOUT</a>
+
+        <form name="loginform" method="post" action="./mainpage.html" target="_blank" >
+            <div class="form-input">
+                <input type="text" name="username" placeholder="Enter the user Id"/>
+            </div>
+            <div class="form-input">
+                <input type="password" name="password" placeholder="password"/>
+            </div>
+            <br></br>
+            <input type="submit" value="LOGIN" class="btn-login" onclick="return validateform()">    
+            <br></br>
+            <br></br>
+            <b><p class="one";style="color:black";>Don't have an account ?</p></b>
+            <b><p class="two";style="color:black";>Sign Up for free..</p></b>
+        
+            <input type="submit" value="SIGN UP" class="btn-signup" onclick="location.href='./signup.html'" >
+           
+        </form>
+    </div>
+</body>
+</html>
